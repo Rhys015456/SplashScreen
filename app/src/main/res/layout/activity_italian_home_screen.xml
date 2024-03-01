@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/HomePage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ItalianHomeScreen">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="Pizza Hello" />
+
+    <Button
+        android:id="@+id/english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="english" />
+
+
+    <Button
+        android:id="@+id/Afrikaans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Afrikaans" />
+
+    <Button
+        android:id="@+id/Zulu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zulu" />
+
+    <Button
+        android:id="@+id/xhosa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xhosa" />
+
+    <Button
+        android:id="@+id/Italian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:text="Italian" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home Page" />
+
+</LinearLayout>
